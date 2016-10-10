@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello Sum</string>
+    <string name="app_number_1">Number 1</string>
+    <string name="app_number_2">Number 2</string>
+    <string name="btn_sum">Sum</string>
+    <string name="lblTotal">"Result: "</string>
+</resources>
