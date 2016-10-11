@@ -23,6 +23,10 @@ public class MainActivity extends AppCompatActivity {
     public void sum(View v) {
         int number1 = Integer.parseInt(edtNumber1.getText().toString());
         int number2 =  Integer.parseInt(edtNumber2.getText().toString());
+
+        // TODO: validate BOTH fields in case they're null/undefined
+        // TODO: integrate/validate DOUBLE types
+
         int total = number1 + number2;
 
         Toast.makeText(this, getString(R.string.lblTotal) + total, Toast.LENGTH_SHORT).show();
